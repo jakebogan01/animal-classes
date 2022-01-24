@@ -37,4 +37,10 @@ class UserTest extends TestCase
         $response->assertOk();
         $response->assertSee($loggedInText);
     }
+
+
+
+
+
+
 }
